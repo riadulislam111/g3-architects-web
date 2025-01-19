@@ -16,6 +16,10 @@ display: flex;
 .text-primary{
     color: #FF900E;
 }
+.section-title{
+    font-size: 2.8rem;
+    font-weight: 700;
+}
 
 /* dark 02 */
 .text-gray{
@@ -101,10 +105,7 @@ font-weight: 500;
     margin-left: 130px;
     max-width: 530px;
 }
-.features-title{
-    font-size: 2.8rem;
-    font-weight: 700;
-}
+
 #quick-list{
     font-weight: 500;
 }
@@ -116,7 +117,20 @@ font-weight: 500;
       .teams{
         flex-direction: column;
     }
-    .teams-img-container{
+    .team-img-container{
         grid-template-columns: repeat(1, 1fr);
     }
+    .our-features{
+        margin: 20px;
+    }
+}
+/* medium size device */
+@media screen and (min-width: 576px) and (max-width: 992px){
+    .teams{
+        flex-direction: column;
+    }
+    .our-features{
+        margin: 50px auto;
+    }
+     
 }
