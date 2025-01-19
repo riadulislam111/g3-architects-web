@@ -34,7 +34,7 @@ display: flex;
 }
 .btn-primary{
     background-color: #FF900E;
-    color: white;
+    color: #FF900E;
     padding: 20px 25px ;
     font-size: 1.25rem;
 border-radius: 8px;
@@ -129,6 +129,18 @@ font-weight: 500;
    margin-top: 0px;
    margin-bottom: 0px;
 }
+#experince-year{
+    
+    font-size: 4rem;
+    font-weight: 700;
+}
+#experince-badge{
+    padding: 45px 42px ;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-left: -100px;
+    margin-top: -100px;
+}
 /* some facts related styles */
 .fact-container{
     display: grid;
@@ -178,6 +190,7 @@ font-weight: 500;
 @media screen and (max-width: 576px){
     .navbar,
      .nav-links,
+     .features,
       .teams{
         flex-direction: column;
     }
