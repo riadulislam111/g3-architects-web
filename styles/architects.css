@@ -134,6 +134,9 @@ font-weight: 500;
     font-size: 4rem;
     font-weight: 700;
 }
+.featured-architect img{
+    width: 100%;
+}
 #experince-badge{
     padding: 45px 42px ;
     font-size: 1.5rem;
@@ -210,11 +213,15 @@ font-weight: 500;
     .our-features{
         margin: 20px;
     }
+    #experince-badge{
+        margin-top: 20px;
+        margin-left: 20px;
+    }
 }
 
 /* medium size device */
 @media screen and (min-width: 576px) and (max-width: 992px){
-    .teams{
+    .teams .feature{
         flex-direction: column;
     }
     .our-features{
